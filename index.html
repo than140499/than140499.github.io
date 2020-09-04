@@ -14,9 +14,14 @@
 		  href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <section class="body text-center">
 	<div class="container build">
       <h1 class="display-5 font-bold" style="color:white">I'm Hoan Than</h1>
@@ -29,7 +34,6 @@
 			<i class="fab fa-youtube"></i>
 			<br>
         </div>
-        <br>
         <div class="scroll-downs">
 		  <div class="mousey">
 			<div class="scroller"></div>
@@ -94,13 +98,13 @@
 			</div>
 </div>
 <div class="row col-12 mt-5 text-center">
-	<div class="col-sm-12">
+	<div class="col-sm-12" data-aos="fade-right">
 		<img src="images/61B78F93-A970-4D01-8ABF-B7C908F24273.jpeg" alt="anh1" width="380px" height="380px">
 		<img src="images/IMG_6969-2.JPG" alt="anh1" width="380px" height="380px">
 		<img src="images/IMG_5435.jpg" alt="anh1" width="380px" height="380px">
 		
 	</div>
-	<div class="col-sm-12">
+	<div class="col-sm-12" data-aos="fade-left">
 		<img src="images/IMG_6697.jpg" alt="anh1" width="380px" height="380px">
 		<img src="images/IMG_7052.jpg" alt="anh1" width="380px" height="380px">
 		<img src="images/DD_01625.JPG" alt="anh1" width="380px" height="380px">
@@ -132,7 +136,7 @@
 	</div>
 </div>
 <div class="form container">
-	<form class="row justify-content-between my-5 mx-5">
+	<form class="row justify-content-between my-5 mx-5" data-aos="fade-up">
   			<input type="text" id="fname" name="fname" placeholder="Name" class="col-md-5 col-12 mb-5 my-md-0 outline">
   			<input type="text" id="fname2" name="fname2" placeholder="Email" class="col-md-5 col-12 mb-5 my-md-0 outline">
         
