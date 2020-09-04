@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+	height: 43.7em;
+	background-image: url("images/IMG_7087.JPG");
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-size: cover;
+}
+.display-5 {
+	font-size: 4em;
+}
+.fab{
+	margin-left: 15px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.iconindex{
+	padding: 4em 0 0 0;
+}
+.anh{
+	height: 25em;
+	background-image: url("images/20200110165814_IMG_8244.JPG");
+	background-size: cover;
+	margin: 5em 2em;
+
+}
+.menu {
+	background-color: #E9E9E9;
+	padding: 5em;
+}
+.col-md-10{
+	font-size: 1em;
+	margin: -1.5em 3em 0 3em;
+}
+.row2{
+	text-align: center;
+}
+
+.navbar{
+	text-decoration: none;
+	width: 360px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.row3{
+	text-align: center;
+}
+.col-12 h1{
+	margin-top: 10px;
+}
+.row4{
+	text-align: center;
+	margin-top: 10px;
+}
+.row4 h3{
+	width: 500px;
+	text-align: center;
+}
+.menu2{
+	margin-top: 5em;
+}
+#fname{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+#fname2{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+#fname3{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.form{
+	text-align: center;
+}
+.footer{
+	background-color: black;
+}
+.col-md-10 i{
+	margin-top: 30px;
+}
+.col-sm-12{
+	margin-bottom: 5px;
+}
+.outline {
+    outline:none;
+}
+.scroll-downs {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 2;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+	.anh {width: 20em; height: 20em}
+	.anh2 {width: 20em; height: 20em}
+	.anh3 {width: 20em; height: 20em}
+    .s h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 46.1875em) {
+	.anh {width: 10em; height: 10em}
+	.anh2 {width: 10em; height: 10em}
+	.anh3 {width: 10em; height: 10em}
+}
