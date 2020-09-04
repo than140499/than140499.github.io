@@ -142,7 +142,19 @@
     }
 }
 @media screen and (max-width: 46.1875em) {
-	.anh {width: 10em; height: 10em}
+	.anh {width: 10em; height: 20em}
 	.anh2 {width: 10em; height: 10em}
 	.anh3 {width: 10em; height: 10em}
+}
+@media (max-width:550px){
+	.display-5 {
+    font-size: 3em;
+}
+	.scroll-downs {
+  position: absolute;
+top: 35%;}
+	.por  video{
+		width: 400px;
+		height: 236px;
+	}
 }
