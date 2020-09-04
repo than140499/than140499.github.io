@@ -154,7 +154,7 @@
   position: absolute;
 top: 35%;}
 	.por  video{
-		width: 380px;
-		height: 216px;
+		width: 380px !important;
+		height: 216px !important;
 	}
 }
