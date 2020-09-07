@@ -100,7 +100,7 @@
 }
 .scroll-downs {
   position: absolute;
-  top: 10%;
+  top: 30%;
   right: 0;
   bottom: 0;
   left: 0;
@@ -153,8 +153,8 @@
 	.scroll-downs {
   position: absolute;
 top: 35%;}
-	.por  video{
-		width: 380px !important;
-		height: 216px !important;
-	}
 }
+	.por  video{
+		width: 100% !important;
+		height: auto !important;
+	}
